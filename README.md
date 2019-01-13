@@ -13,6 +13,15 @@ $bundle install
 ```
 $./install2.sh
 ```
+## Installation Kali
+```
+git clone https://github.com/Hider5/Raise
+cd Raise
+chmod +x *
+apt-get install ruby
+gem install bundler
+bundle install
+```
 ### Usage
 ```
 $./raise.rb -l [letter] -o [output]
