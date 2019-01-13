@@ -1,5 +1,5 @@
 # Raise
-![](https://img.shields.io/badge/Ruby 2.5.3 or higher-yellowgreen.svg)
+![](https://img.shields.io/badge/Ruby-2.5.3-or-higher-yellowgreen.svg)
 ## Installation Termux
 ```
 $git clone https://github.com/Hider5/Raise
