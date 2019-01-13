@@ -5,6 +5,6 @@
 ```
 $git clone https://github.com/Hider5/Raise
 $cd Raise
-$./install.sh <<< error try ./install.sh
+$./install.sh <<< if error try ./install1.sh
 $chmod +x *
 ```
