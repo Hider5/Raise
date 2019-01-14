@@ -22,10 +22,10 @@ def example(arg)
 	if arg[:example]
 		puts"
 Example :
-./#{__FILE__} -s www.site.com
-./#{__FILE__} -f /sdcard/target.txt
-./#{__FILE__} -i site.com #{R}[Need sudo]#{W}
-./#{__FILE__} -l [word] -o /sdcard/wordlist.txt
+#{__FILE__} -s www.site.com
+#{__FILE__} -f /sdcard/target.txt
+#{__FILE__} -i site.com #{R}[Need sudo]#{W}
+#{__FILE__} -l [word] -o /sdcard/wordlist.txt
 		"
 	end
 end
@@ -130,7 +130,7 @@ def admin_pages_finder(arg)
 end
 if __FILE__ == $0
 	if ARGV.empty?
-		puts "Need help? Try ./#{__FILE__} -h or --help"
+		puts "Need help? Try #{__FILE__} -h or --help"
 		exit
 	end
 	begin
